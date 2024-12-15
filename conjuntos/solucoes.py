@@ -35,7 +35,7 @@ class Conjunto1:
 class Conjunto2:
     @staticmethod
     def knapsack(
-        weight: List[int], value: List[int|float], capacity: int
+        weight: List[int], value: List[int | float], capacity: int
     ) -> int | float:
         size = len(weight)
         matrix = [[0] * (capacity + 1) for _ in range(size + 1)]
@@ -50,6 +50,9 @@ class Conjunto2:
                 else:
                     matrix[i][j] = matrix[i - 1][j]
         return matrix[-1][-1]
-    
+
     @staticmethod
-    def memory_knapsack
+    def memory_knapsack(
+        weight: List[int], value: List[int | float], capacity: int
+    ) -> int | float:
+        return 0
