@@ -28,8 +28,5 @@ class Conjunto1:
                 j += 1
             k += 1
         if i == p:
-            arr_a.append(arr_c[j:])
-        else:
-            arr_a.append(arr_b[i:])
-
-        return arr_a
+            return arr_a[:k] + arr_c[j:]
+        return arr_a[:k] + arr_b[i:]
