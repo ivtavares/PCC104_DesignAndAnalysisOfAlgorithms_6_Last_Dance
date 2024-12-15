@@ -6,8 +6,8 @@ class Conjunto1:
     def merge_sort(arr: List[int]) -> List[int]:
         if len(arr) > 1:
             half = len(arr) // 2
-            arr_b = arr[:half].copy()
-            arr_c = arr[half:].copy()
+            arr_b = arr[:half]
+            arr_c = arr[half:]
             arr_b = Conjunto1.merge_sort(arr_b)
             arr_c = Conjunto1.merge_sort(arr_c)
             return Conjunto1.merge(arr_b, arr_c, arr)
