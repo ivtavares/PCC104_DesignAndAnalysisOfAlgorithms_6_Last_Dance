@@ -29,14 +29,14 @@ class TestConjunto2:
         "weight,value,capacity,optimal_solution",
         weight_value_capacity_and_optimal_solution,
     )
-    def test_conjunto_2_knapsack(self, weight, value, capacity, optimal_solution):
+    def test_knapsack(self, weight, value, capacity, optimal_solution):
         assert s.Conjunto2.knapsack(weight, value, capacity) == optimal_solution
 
     @pytest.mark.parametrize(
         "weight,value,capacity,optimal_solution",
         weight_value_capacity_and_optimal_solution,
     )
-    def test_conjunto_2_memory_knapsack(
+    def test_memory_knapsack(
         self, weight, value, capacity, optimal_solution
     ):
         assert s.Conjunto2().memory_knapsack(weight, value, capacity) == optimal_solution
