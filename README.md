@@ -17,7 +17,7 @@ Será necessário o pacote pytest ([link](https://docs.pytest.org/en/stable/inde
 1. Implemente os dois algoritmos baseados em programação dinâmica para o problem da mochila ([link](./conjuntos/conjunto2.py)).
 ## Conjunto 3 - Algoritmos Gulosos
 2. Implemente o algorimo de Kruskall ([link](./conjuntos/conjunto3.py)).
-### Caso 1
+### Caso 0
 ```mermaid
 graph LR
     0 ---|10| 1
@@ -27,7 +27,7 @@ graph LR
     2 ---|4| 3
 
 ```
-### Caso 2
+### Caso 1
 ```mermaid
 graph LR
     0 ---|1| 1
@@ -35,7 +35,7 @@ graph LR
     0 ---|3| 2
 
 ```
-### Caso 3
+### Caso 2
 ```mermaid
 graph LR
     0 ---|2| 1
@@ -44,7 +44,7 @@ graph LR
     3 ---|5| 4
 
 ```
-### Caso 4
+### Caso 3
 ```mermaid
 graph LR
     7 ---|1| 6
