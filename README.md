@@ -62,3 +62,5 @@ graph LR
     1 ---|11| 7
     3 ---|14| 5
 ```
+## Conjunto 4 - Backtracking
+2. Implemente um algoritmo baseado em backtracking para o problem ( subset-sum) ([link](./conjuntos/conjunto4.py)).
