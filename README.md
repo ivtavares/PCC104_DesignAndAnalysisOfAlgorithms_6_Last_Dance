@@ -63,4 +63,7 @@ graph LR
     3 ---|14| 5
 ```
 ## Conjunto 4 - Backtracking
-2. Implemente um algoritmo baseado em backtracking para o problem ( subset-sum) ([link](./conjuntos/conjunto4.py)).
+2. Implemente um algoritmo baseado em backtracking para o problem (subset-sum) ([link](./conjuntos/conjunto4.py)).
+
+## Conjunto 5 - Branch and Bound
+1. Implemente um algoritmo baseado em branch and bound para o problema da mochila ([link](./conjuntos/conjunto5.py)).
